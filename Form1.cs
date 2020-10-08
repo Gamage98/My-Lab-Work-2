@@ -27,7 +27,7 @@ namespace Lecture06_Calculator
             int number1 = int.Parse(No01_textBox.Text);
             int number2 = int.Parse(No02_textBox.Text);
 
-            float ans = number1 + number2;
+            int ans = number1 + number2;
             Answer_textBox.Text = ans.ToString();
         }
 
@@ -55,7 +55,7 @@ namespace Lecture06_Calculator
             int number1 = int.Parse(No01_textBox.Text);
             int number2 = int.Parse(No02_textBox.Text);
 
-            double ans = number1 - number2;
+            int ans = number1 - number2;
             Answer_textBox.Text = ans.ToString();
         }
 
