@@ -75,5 +75,19 @@ namespace Lecture06_Calculator
             Answer_textBox.Text = "";
             No01_textBox.Focus();//cursor come to first textbox
         }
+         private void Subtraction_button_Click(object sender, EventArgs e)
+        {
+            int number1 = int.Parse(No01_textBox.Text);
+            int number2 = int.Parse(No02_textBox.Text);
+            if(number1>=number2)
+            {
+            int ans = number1 - number2;
+            }
+            else
+            {
+            int ans = number2 - number1;
+            }
+            Answer_textBox.Text = ans.ToString();
+        }
     }
 }
